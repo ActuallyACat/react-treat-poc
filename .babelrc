@@ -1,0 +1,4 @@
+{
+  "plugins": ["babel-plugin-treat"],
+  "presets": ["@babel/preset-react"]
+}

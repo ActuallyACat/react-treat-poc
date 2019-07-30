@@ -1,0 +1,30 @@
+{
+  "name": "ca-app",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ally Beaton <info@allybeaton.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-treat": "^1.0.0-beta.23",
+    "dotenv": "^8.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-treat": "^1.0.0",
+    "treat": "^1.0.0"
+  }
+}
