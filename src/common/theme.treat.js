@@ -1,4 +1,5 @@
 import { createTheme, globalStyle } from 'treat';
+import normalise from './normalise';
 
 export default createTheme({
   color: {
@@ -29,8 +30,6 @@ export default createTheme({
   }
 });
 
-
-globalStyle('html, body', {
-  margin: 0,
-  padding: 0
+normalise.forEach(({ selector, rules }) => {
+  globalStyle(selector, rules);
 });

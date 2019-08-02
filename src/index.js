@@ -1,15 +1,9 @@
 import React from 'react';
 import { TreatProvider } from 'react-treat';
-import { globalStyle } from 'treat';
 
-import theme from './theme.treat.js';
+import theme from './common/theme.treat.js';
 import { Button } from './components/Button';
 import { Body, Heading } from './components/Typography';
-
-globalStyle('html, body', {
-  margin: 0,
-  padding: 0
-});
 
 export const App = () => {
   return (
