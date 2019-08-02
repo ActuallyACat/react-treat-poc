@@ -23,5 +23,8 @@ export default createTheme({
   typography: {
     sansSerif: '"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif', 
     serif: 'Georgia, "Times New Roman", Times, serif'
+  },
+  utility: {
+    borderRadius: '3px'
   }
 });
